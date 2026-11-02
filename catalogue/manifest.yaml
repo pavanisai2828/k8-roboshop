@@ -50,7 +50,7 @@ metadata:
 spec:
   selector:
     project: roboshop
-    tier: catalogue
+    tier: backend
     component: catalogue
   ports:
   - protocol: TCP

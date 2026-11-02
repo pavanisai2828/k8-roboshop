@@ -40,7 +40,7 @@ spec:
     tier: catalogue
     component: catalogue
   ports:
-  - protcol: TCP
+  - protocol: TCP
     port: 8080
     targetPort: 8080
 

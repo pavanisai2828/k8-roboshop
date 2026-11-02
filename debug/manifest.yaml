@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  labels:
+    project: roboshop
+spec:
+  container:
+  - name: debug
+    image: joindevops/debug:4.0.0

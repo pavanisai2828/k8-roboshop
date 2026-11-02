@@ -29,6 +29,7 @@ apiVersion: v1
 kind: Deployement
 metadata:
   name: mongodb
+  Namespace: roboshop
   labels:
     project: roboshop
     tier: db

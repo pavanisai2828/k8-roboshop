@@ -33,7 +33,7 @@ spec:
       - name: mysql
         image: joindevops/mysql:4.0.0
         envFrom:
-          secretRef:
+        - secretRef:
             name: mysql
 
 ---

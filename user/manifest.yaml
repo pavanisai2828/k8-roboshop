@@ -32,11 +32,11 @@ spec:
         component: user
     spec:
       containers:
-      -name: user
-      image: joindevops/user:4.0.0
-      envFrom:
-      -configMapRef:
-        name: user
+      - name: user
+        image: joindevops/user:4.0.0
+        envFrom:
+        -configMapRef:
+          name: user
 ---
 apiVersion: v1
 kind: Service

@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: roboshop
 data:
-  configMapRef: |
+  nginx.conf: |
     user nginx;
     worker_processes auto;
     error_log /var/log/nginx/error.log notice;

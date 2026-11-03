@@ -82,7 +82,7 @@ spec:
   replicas:  1
   selector:
     matchLabels:
-      project: frontend
+      project: roboshop
       tier: frontend
       component: frontend
   template:

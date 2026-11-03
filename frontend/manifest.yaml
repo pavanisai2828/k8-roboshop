@@ -79,8 +79,8 @@ metadata:
     tier: frontend
     component: frontend
 spec:
+  replicas:  1
   selector:
-    replicas:  1
     matchLabels:
       project: frontend
       tier: frontend

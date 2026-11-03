@@ -105,7 +105,7 @@ spec:
         ConfigMap: 
           name: nginx
           items:
-          - key: nginx-conf
+          - key: nginx.conf
             path: nginx.conf
 ---
 apiVersion: v1

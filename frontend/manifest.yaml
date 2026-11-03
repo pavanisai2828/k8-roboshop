@@ -92,7 +92,7 @@ spec:
         tier: frontend
         component: frontend
     spec:
-      container:
+      containers:
       - name: frontend
         image: joindevops/frontend:4.0.0
         volumeMounts:
@@ -100,13 +100,13 @@ spec:
             mountPath: /etc/nginx/nginx.conf
             subPath: nginx.conf
             readOnly: true
-    volumes:
-    - name: nginx-config
-      ConfigMap: 
-        name: nginx
-        items:
-        - key: nginx-conf
-          path: nginx.conf
+      volumes:
+      - name: nginx-config
+        ConfigMap: 
+          name: nginx
+          items:
+          - key: nginx-conf
+            path: nginx.conf
 ---
 apiVersion: v1
 kind: Service

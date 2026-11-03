@@ -118,6 +118,7 @@ metadata:
     tier: frontend
     component: frontend
 spec:
+  type: LoadBalancer
   selector:
     project: roboshop
     tier: frontend
